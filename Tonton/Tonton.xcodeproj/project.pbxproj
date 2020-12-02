@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB7BCEA2577075A00B7CF9B /* TontonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BCE92577075A00B7CF9B /* TontonApp.swift */; };
+		EAB7BCEC2577075A00B7CF9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BCEB2577075A00B7CF9B /* ContentView.swift */; };
+		EAB7BCEE2577075C00B7CF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BCED2577075C00B7CF9B /* Assets.xcassets */; };
+		EAB7BCF12577075C00B7CF9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BCF02577075C00B7CF9B /* Preview Assets.xcassets */; };
+		EAB7BCFC2577075C00B7CF9B /* TontonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BCFB2577075C00B7CF9B /* TontonTests.swift */; };
+		EAB7BD072577075C00B7CF9B /* TontonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD062577075C00B7CF9B /* TontonUITests.swift */; };
+		EAB7BD1825770FA100B7CF9B /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD1725770FA100B7CF9B /* image.swift */; };
+		EAB7BD3E25772B8C00B7CF9B /* NewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD3D25772B8C00B7CF9B /* NewSession.swift */; };
+		EAB7BD4D25772C2F00B7CF9B /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD4825772C2F00B7CF9B /* Baloo2-ExtraBold.ttf */; };
+		EAB7BD4E25772C2F00B7CF9B /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD4925772C2F00B7CF9B /* Baloo2-Medium.ttf */; };
+		EAB7BD4F25772C2F00B7CF9B /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD4A25772C2F00B7CF9B /* Baloo2-Regular.ttf */; };
+		EAB7BD5025772C2F00B7CF9B /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD4B25772C2F00B7CF9B /* Baloo2-SemiBold.ttf */; };
+		EAB7BD5125772C2F00B7CF9B /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD4C25772C2F00B7CF9B /* Baloo2-Bold.ttf */; };
+		EAB7BD5625772C3900B7CF9B /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BD5525772C3900B7CF9B /* PermanentMarker-Regular.ttf */; };
+		EAB7BD5B25772F6500B7CF9B /* WaitRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD5A25772F6500B7CF9B /* WaitRoom.swift */; };
+		EAB7BD602577323F00B7CF9B /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD5F2577323F00B7CF9B /* Swipe.swift */; };
+		EAB7BD652577358A00B7CF9B /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BD642577358A00B7CF9B /* GradientBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB7BCF82577075C00B7CF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB7BCDE2577075900B7CF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB7BCE52577075A00B7CF9B;
+			remoteInfo = Tonton;
+		};
+		EAB7BD032577075C00B7CF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB7BCDE2577075900B7CF9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB7BCE52577075A00B7CF9B;
+			remoteInfo = Tonton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAB7BCE62577075A00B7CF9B /* Tonton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB7BCE92577075A00B7CF9B /* TontonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TontonApp.swift; sourceTree = "<group>"; };
+		EAB7BCEB2577075A00B7CF9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAB7BCED2577075C00B7CF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB7BCF02577075C00B7CF9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB7BCF22577075C00B7CF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB7BCF72577075C00B7CF9B /* TontonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TontonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB7BCFB2577075C00B7CF9B /* TontonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TontonTests.swift; sourceTree = "<group>"; };
+		EAB7BCFD2577075C00B7CF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB7BD022577075C00B7CF9B /* TontonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TontonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB7BD062577075C00B7CF9B /* TontonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TontonUITests.swift; sourceTree = "<group>"; };
+		EAB7BD082577075C00B7CF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB7BD1725770FA100B7CF9B /* image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
+		EAB7BD3D25772B8C00B7CF9B /* NewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSession.swift; sourceTree = "<group>"; };
+		EAB7BD4825772C2F00B7CF9B /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EAB7BD4925772C2F00B7CF9B /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Medium.ttf"; sourceTree = "<group>"; };
+		EAB7BD4A25772C2F00B7CF9B /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Regular.ttf"; sourceTree = "<group>"; };
+		EAB7BD4B25772C2F00B7CF9B /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-SemiBold.ttf"; sourceTree = "<group>"; };
+		EAB7BD4C25772C2F00B7CF9B /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		EAB7BD5525772C3900B7CF9B /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
+		EAB7BD5A25772F6500B7CF9B /* WaitRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitRoom.swift; sourceTree = "<group>"; };
+		EAB7BD5F2577323F00B7CF9B /* Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
+		EAB7BD642577358A00B7CF9B /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB7BCE32577075A00B7CF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BCF42577075C00B7CF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BCFF2577075C00B7CF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB7BCDD2577075900B7CF9B = {
+			isa = PBXGroup;
+			children = (
+				EAB7BCE82577075A00B7CF9B /* Tonton */,
+				EAB7BCFA2577075C00B7CF9B /* TontonTests */,
+				EAB7BD052577075C00B7CF9B /* TontonUITests */,
+				EAB7BCE72577075A00B7CF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB7BCE72577075A00B7CF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BCE62577075A00B7CF9B /* Tonton.app */,
+				EAB7BCF72577075C00B7CF9B /* TontonTests.xctest */,
+				EAB7BD022577075C00B7CF9B /* TontonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB7BCE82577075A00B7CF9B /* Tonton */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BD2A2577195700B7CF9B /* Fonts */,
+				EAB7BCE92577075A00B7CF9B /* TontonApp.swift */,
+				EAB7BCEB2577075A00B7CF9B /* ContentView.swift */,
+				EAB7BD5F2577323F00B7CF9B /* Swipe.swift */,
+				EAB7BD5A25772F6500B7CF9B /* WaitRoom.swift */,
+				EAB7BD3D25772B8C00B7CF9B /* NewSession.swift */,
+				EAB7BCED2577075C00B7CF9B /* Assets.xcassets */,
+				EAB7BCF22577075C00B7CF9B /* Info.plist */,
+				EAB7BCEF2577075C00B7CF9B /* Preview Content */,
+				EAB7BD1725770FA100B7CF9B /* image.swift */,
+				EAB7BD642577358A00B7CF9B /* GradientBackground.swift */,
+			);
+			path = Tonton;
+			sourceTree = "<group>";
+		};
+		EAB7BCEF2577075C00B7CF9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BCF02577075C00B7CF9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAB7BCFA2577075C00B7CF9B /* TontonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BCFB2577075C00B7CF9B /* TontonTests.swift */,
+				EAB7BCFD2577075C00B7CF9B /* Info.plist */,
+			);
+			path = TontonTests;
+			sourceTree = "<group>";
+		};
+		EAB7BD052577075C00B7CF9B /* TontonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BD062577075C00B7CF9B /* TontonUITests.swift */,
+				EAB7BD082577075C00B7CF9B /* Info.plist */,
+			);
+			path = TontonUITests;
+			sourceTree = "<group>";
+		};
+		EAB7BD2A2577195700B7CF9B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7BD4C25772C2F00B7CF9B /* Baloo2-Bold.ttf */,
+				EAB7BD4825772C2F00B7CF9B /* Baloo2-ExtraBold.ttf */,
+				EAB7BD4925772C2F00B7CF9B /* Baloo2-Medium.ttf */,
+				EAB7BD4A25772C2F00B7CF9B /* Baloo2-Regular.ttf */,
+				EAB7BD4B25772C2F00B7CF9B /* Baloo2-SemiBold.ttf */,
+				EAB7BD5525772C3900B7CF9B /* PermanentMarker-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB7BCE52577075A00B7CF9B /* Tonton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB7BD0B2577075C00B7CF9B /* Build configuration list for PBXNativeTarget "Tonton" */;
+			buildPhases = (
+				EAB7BCE22577075A00B7CF9B /* Sources */,
+				EAB7BCE32577075A00B7CF9B /* Frameworks */,
+				EAB7BCE42577075A00B7CF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tonton;
+			productName = Tonton;
+			productReference = EAB7BCE62577075A00B7CF9B /* Tonton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB7BCF62577075C00B7CF9B /* TontonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB7BD0E2577075C00B7CF9B /* Build configuration list for PBXNativeTarget "TontonTests" */;
+			buildPhases = (
+				EAB7BCF32577075C00B7CF9B /* Sources */,
+				EAB7BCF42577075C00B7CF9B /* Frameworks */,
+				EAB7BCF52577075C00B7CF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB7BCF92577075C00B7CF9B /* PBXTargetDependency */,
+			);
+			name = TontonTests;
+			productName = TontonTests;
+			productReference = EAB7BCF72577075C00B7CF9B /* TontonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAB7BD012577075C00B7CF9B /* TontonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB7BD112577075C00B7CF9B /* Build configuration list for PBXNativeTarget "TontonUITests" */;
+			buildPhases = (
+				EAB7BCFE2577075C00B7CF9B /* Sources */,
+				EAB7BCFF2577075C00B7CF9B /* Frameworks */,
+				EAB7BD002577075C00B7CF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB7BD042577075C00B7CF9B /* PBXTargetDependency */,
+			);
+			name = TontonUITests;
+			productName = TontonUITests;
+			productReference = EAB7BD022577075C00B7CF9B /* TontonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB7BCDE2577075900B7CF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EAB7BCE52577075A00B7CF9B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EAB7BCF62577075C00B7CF9B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EAB7BCE52577075A00B7CF9B;
+					};
+					EAB7BD012577075C00B7CF9B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EAB7BCE52577075A00B7CF9B;
+					};
+				};
+			};
+			buildConfigurationList = EAB7BCE12577075900B7CF9B /* Build configuration list for PBXProject "Tonton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB7BCDD2577075900B7CF9B;
+			productRefGroup = EAB7BCE72577075A00B7CF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB7BCE52577075A00B7CF9B /* Tonton */,
+				EAB7BCF62577075C00B7CF9B /* TontonTests */,
+				EAB7BD012577075C00B7CF9B /* TontonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB7BCE42577075A00B7CF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB7BD4D25772C2F00B7CF9B /* Baloo2-ExtraBold.ttf in Resources */,
+				EAB7BCF12577075C00B7CF9B /* Preview Assets.xcassets in Resources */,
+				EAB7BD5625772C3900B7CF9B /* PermanentMarker-Regular.ttf in Resources */,
+				EAB7BD4E25772C2F00B7CF9B /* Baloo2-Medium.ttf in Resources */,
+				EAB7BD5125772C2F00B7CF9B /* Baloo2-Bold.ttf in Resources */,
+				EAB7BD4F25772C2F00B7CF9B /* Baloo2-Regular.ttf in Resources */,
+				EAB7BD5025772C2F00B7CF9B /* Baloo2-SemiBold.ttf in Resources */,
+				EAB7BCEE2577075C00B7CF9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BCF52577075C00B7CF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BD002577075C00B7CF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB7BCE22577075A00B7CF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB7BD602577323F00B7CF9B /* Swipe.swift in Sources */,
+				EAB7BCEC2577075A00B7CF9B /* ContentView.swift in Sources */,
+				EAB7BD3E25772B8C00B7CF9B /* NewSession.swift in Sources */,
+				EAB7BCEA2577075A00B7CF9B /* TontonApp.swift in Sources */,
+				EAB7BD5B25772F6500B7CF9B /* WaitRoom.swift in Sources */,
+				EAB7BD652577358A00B7CF9B /* GradientBackground.swift in Sources */,
+				EAB7BD1825770FA100B7CF9B /* image.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BCF32577075C00B7CF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB7BCFC2577075C00B7CF9B /* TontonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB7BCFE2577075C00B7CF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB7BD072577075C00B7CF9B /* TontonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB7BCF92577075C00B7CF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB7BCE52577075A00B7CF9B /* Tonton */;
+			targetProxy = EAB7BCF82577075C00B7CF9B /* PBXContainerItemProxy */;
+		};
+		EAB7BD042577075C00B7CF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB7BCE52577075A00B7CF9B /* Tonton */;
+			targetProxy = EAB7BD032577075C00B7CF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAB7BD092577075C00B7CF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB7BD0A2577075C00B7CF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB7BD0C2577075C00B7CF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tonton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tonton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.Tonton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB7BD0D2577075C00B7CF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tonton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tonton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.Tonton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAB7BD0F2577075C00B7CF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TontonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.TontonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tonton.app/Tonton";
+			};
+			name = Debug;
+		};
+		EAB7BD102577075C00B7CF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TontonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.TontonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tonton.app/Tonton";
+			};
+			name = Release;
+		};
+		EAB7BD122577075C00B7CF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TontonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.TontonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tonton;
+			};
+			name = Debug;
+		};
+		EAB7BD132577075C00B7CF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TontonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonton.TontonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tonton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB7BCE12577075900B7CF9B /* Build configuration list for PBXProject "Tonton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB7BD092577075C00B7CF9B /* Debug */,
+				EAB7BD0A2577075C00B7CF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB7BD0B2577075C00B7CF9B /* Build configuration list for PBXNativeTarget "Tonton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB7BD0C2577075C00B7CF9B /* Debug */,
+				EAB7BD0D2577075C00B7CF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB7BD0E2577075C00B7CF9B /* Build configuration list for PBXNativeTarget "TontonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB7BD0F2577075C00B7CF9B /* Debug */,
+				EAB7BD102577075C00B7CF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB7BD112577075C00B7CF9B /* Build configuration list for PBXNativeTarget "TontonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB7BD122577075C00B7CF9B /* Debug */,
+				EAB7BD132577075C00B7CF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB7BCDE2577075900B7CF9B /* Project object */;
+}
