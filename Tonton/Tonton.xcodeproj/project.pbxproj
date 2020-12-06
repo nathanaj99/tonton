@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B1BE3D257C1E6F001E98B4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1BE3C257C1E6F001E98B4 /* Filter.swift */; };
 		EAB7BCEA2577075A00B7CF9B /* TontonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BCE92577075A00B7CF9B /* TontonApp.swift */; };
 		EAB7BCEC2577075A00B7CF9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BCEB2577075A00B7CF9B /* ContentView.swift */; };
 		EAB7BCEE2577075C00B7CF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB7BCED2577075C00B7CF9B /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96B1BE3C257C1E6F001E98B4 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		EAB7BCE62577075A00B7CF9B /* Tonton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB7BCE92577075A00B7CF9B /* TontonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TontonApp.swift; sourceTree = "<group>"; };
 		EAB7BCEB2577075A00B7CF9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				EAB7BD5F2577323F00B7CF9B /* Swipe.swift */,
 				EAB7BD5A25772F6500B7CF9B /* WaitRoom.swift */,
 				EAB7BD3D25772B8C00B7CF9B /* NewSession.swift */,
+				96B1BE3C257C1E6F001E98B4 /* Filter.swift */,
 				EAB7BCED2577075C00B7CF9B /* Assets.xcassets */,
 				EAB7BCF22577075C00B7CF9B /* Info.plist */,
 				EAB7BCEF2577075C00B7CF9B /* Preview Content */,
@@ -311,6 +314,7 @@
 				EAB7BD3E25772B8C00B7CF9B /* NewSession.swift in Sources */,
 				EAB7BCEA2577075A00B7CF9B /* TontonApp.swift in Sources */,
 				EAB7BD5B25772F6500B7CF9B /* WaitRoom.swift in Sources */,
+				96B1BE3D257C1E6F001E98B4 /* Filter.swift in Sources */,
 				EAB7BD652577358A00B7CF9B /* GradientBackground.swift in Sources */,
 				EAB7BD1825770FA100B7CF9B /* image.swift in Sources */,
 			);

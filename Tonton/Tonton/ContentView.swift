@@ -11,21 +11,6 @@ struct ContentView: View {
     @State private var code: String = ""
     var body: some View {
         
-//        VStack {
-//            image()
-//            VStack(alignment: .leading) {
-//                Text("Hello, pp!")
-//                    .font(.title)
-//                    .foregroundColor(Color.green)
-//                HStack {
-//                    Text("Placeholder")
-//                        .font(.subheadline)
-//                    Spacer()
-//                    Text("California")
-//                        .font(.subheadline)
-//                }
-//            }.padding()
-//        }
         NavigationView {
         GradientBackground().ignoresSafeArea()
             .overlay(

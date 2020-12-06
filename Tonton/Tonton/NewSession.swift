@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NewSession: View {
     var body: some View {
-        Color("Teal").ignoresSafeArea()
+        GradientBackground().ignoresSafeArea()
             .overlay(
         VStack {
             Text("Your code is").font(.custom("Baloo2-SemiBold", size: 20)).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
